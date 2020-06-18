@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\IndexCards\\Tutorials\\AztecEditorCustom\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1280dp-v13\\values-w1280dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\IndexCards\\Tutorials\\AztecEditorCustom\\app\\src\\main\\res\\values-w1280dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "54",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

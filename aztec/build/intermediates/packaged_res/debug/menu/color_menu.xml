@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+        <item
+            android:id="@+id/colorBlack"
+            android:icon="@drawable/fg_black"
+            app:showAsAction="always"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorWhite"
+            android:icon="@drawable/fg_white"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorRed"
+            android:icon="@drawable/bg_red"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorOrange"
+            android:icon="@drawable/fg_orange"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorYellow"
+            android:icon="@drawable/bg_yellow"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorDarkGreen"
+            android:icon="@drawable/fg_darkgreen"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorBlue"
+            android:icon="@drawable/fg_blue"
+            android:title="" >
+        </item>
+
+        <item
+            android:id="@+id/colorPurple"
+            android:icon="@drawable/fg_purple"
+            android:title="" >
+        </item>
+</menu>

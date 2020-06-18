@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1f1f1f">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1f1f1f">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_yellow"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_green"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_blue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1f1f1f">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_pink"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_red"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_purple"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1f1f1f">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bgImgNone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_none"/>
+    </LinearLayout>
+</LinearLayout>

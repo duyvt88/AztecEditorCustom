@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.wordpress.aztec"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required for downloading images -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Required for adding media and requested at runtime -->
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:9:5-65
+15-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+17-->[org.wordpress:utils:1.21] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\f50e6daffef96ca80ac5a19ce8b587eb\jetified-utils-1.21\AndroidManifest.xml:10:5-71
+17-->[org.wordpress:utils:1.21] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\f50e6daffef96ca80ac5a19ce8b587eb\jetified-utils-1.21\AndroidManifest.xml:10:22-68
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[org.wordpress:utils:1.21] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\f50e6daffef96ca80ac5a19ce8b587eb\jetified-utils-1.21\AndroidManifest.xml:11:5-79
+18-->[org.wordpress:utils:1.21] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\f50e6daffef96ca80ac5a19ce8b587eb\jetified-utils-1.21\AndroidManifest.xml:11:22-76
+19
+20    <application
+20-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:12:5-44:19
+21        android:allowBackup="true"
+21-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:14:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:15:9-43
+25        android:label="@string/app_name"
+25-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:13:9-41
+26        android:supportsRtl="true"
+26-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:16:9-35
+27        android:testOnly="true" >
+28        <activity
+28-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:18:9-28:20
+29            android:name="org.wordpress.aztec.demo.MainActivity"
+29-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:19:13-41
+30            android:theme="@style/MainActivityTheme"
+30-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:21:13-53
+31            android:windowSoftInputMode="adjustResize|stateHidden" >
+31-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:20:13-67
+32            <intent-filter>
+32-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:23:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:24:17-69
+33-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:25:17-77
+35-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <!-- Provider for exposing file URIs on Android 7+ -->
+40        <provider
+41            android:name="androidx.core.content.FileProvider"
+41-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:32:13-62
+42            android:authorities="org.wordpress.aztec.provider"
+42-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:33:13-60
+43            android:exported="false"
+43-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:34:13-37
+44            android:grantUriPermissions="true" >
+44-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:35:13-47
+45            <meta-data
+45-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:37:13-40:25
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:38:17-67
+47                android:resource="@xml/provider_paths" >
+47-->D:\IndexCards\Tutorials\AztecEditorCustom\app\src\main\AndroidManifest.xml:39:17-55
+48            </meta-data>
+49        </provider>
+50    </application>
+51
+52</manifest>
